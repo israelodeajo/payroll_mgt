@@ -1,0 +1,227 @@
+{
+  "1": {
+    "vendor_id": "1",
+    "name": "Hardin, Graham and Davis",
+    "tin": "39314876",
+    "bank_account": "ACCT-63820579",
+    "status": "inactive",
+    "created_at": "2025-09-10T10:00:00",
+    "updated_at": "2025-09-10T11:00:00"
+  },
+  "2": {
+    "vendor_id": "2",
+    "name": "Vega-Wang",
+    "tin": "73911816",
+    "bank_account": "ACCT-84346550",
+    "status": "blocked",
+    "created_at": "2025-09-11T10:00:00",
+    "updated_at": "2025-09-11T11:00:00"
+  },
+  "3": {
+    "vendor_id": "3",
+    "name": "Dixon Ltd",
+    "tin": "39343012",
+    "bank_account": "ACCT-47016159",
+    "status": "active",
+    "created_at": "2025-09-12T10:00:00",
+    "updated_at": "2025-09-12T11:00:00"
+  },
+  "4": {
+    "vendor_id": "4",
+    "name": "Macdonald-Austin",
+    "tin": "87174775",
+    "bank_account": "ACCT-45915352",
+    "status": "inactive",
+    "created_at": "2025-09-13T10:00:00",
+    "updated_at": "2025-09-13T11:00:00"
+  },
+  "5": {
+    "vendor_id": "5",
+    "name": "Cooper-Brown",
+    "tin": "53216137",
+    "bank_account": "ACCT-80146431",
+    "status": "blocked",
+    "created_at": "2025-09-14T10:00:00",
+    "updated_at": "2025-09-14T11:00:00"
+  },
+  "6": {
+    "vendor_id": "6",
+    "name": "Powers-Miller",
+    "tin": "50513798",
+    "bank_account": "ACCT-85099584",
+    "status": "active",
+    "created_at": "2025-09-15T10:00:00",
+    "updated_at": "2025-09-15T11:00:00"
+  },
+  "7": {
+    "vendor_id": "7",
+    "name": "Charles PLC",
+    "tin": "20694999",
+    "bank_account": "ACCT-74258501",
+    "status": "inactive",
+    "created_at": "2025-09-16T10:00:00",
+    "updated_at": "2025-09-16T11:00:00"
+  },
+  "8": {
+    "vendor_id": "8",
+    "name": "Nicholson-Mcclain",
+    "tin": "71167172",
+    "bank_account": "ACCT-35074250",
+    "status": "blocked",
+    "created_at": "2025-09-17T10:00:00",
+    "updated_at": "2025-09-17T11:00:00"
+  },
+  "9": {
+    "vendor_id": "9",
+    "name": "Andrews, Wright and Reed",
+    "tin": "99078583",
+    "bank_account": "ACCT-71539982",
+    "status": "active",
+    "created_at": "2025-09-18T10:00:00",
+    "updated_at": "2025-09-18T11:00:00"
+  },
+  "10": {
+    "vendor_id": "10",
+    "name": "Griffith-Taylor",
+    "tin": "17016288",
+    "bank_account": "ACCT-90516766",
+    "status": "inactive",
+    "created_at": "2025-09-19T10:00:00",
+    "updated_at": "2025-09-19T11:00:00"
+  },
+  "11": {
+    "vendor_id": "11",
+    "name": "Martinez, Smith and Lamb",
+    "tin": "17566223",
+    "bank_account": "ACCT-95590320",
+    "status": "blocked",
+    "created_at": "2025-09-20T10:00:00",
+    "updated_at": "2025-09-20T11:00:00"
+  },
+  "12": {
+    "vendor_id": "12",
+    "name": "Rivera, Gonzales and Mueller",
+    "tin": "97099986",
+    "bank_account": "ACCT-56019612",
+    "status": "active",
+    "created_at": "2025-09-21T10:00:00",
+    "updated_at": "2025-09-21T11:00:00"
+  },
+  "13": {
+    "vendor_id": "13",
+    "name": "Garcia-Phillips",
+    "tin": "11131362",
+    "bank_account": "ACCT-39380652",
+    "status": "inactive",
+    "created_at": "2025-09-22T10:00:00",
+    "updated_at": "2025-09-22T11:00:00"
+  },
+  "14": {
+    "vendor_id": "14",
+    "name": "Nichols Ltd",
+    "tin": "67061299",
+    "bank_account": "ACCT-99761551",
+    "status": "blocked",
+    "created_at": "2025-09-23T10:00:00",
+    "updated_at": "2025-09-23T11:00:00"
+  },
+  "15": {
+    "vendor_id": "15",
+    "name": "Gibson-Suarez",
+    "tin": "79510808",
+    "bank_account": "ACCT-81785884",
+    "status": "active",
+    "created_at": "2025-09-24T10:00:00",
+    "updated_at": "2025-09-24T11:00:00"
+  },
+  "16": {
+    "vendor_id": "16",
+    "name": "Nichols Ltd",
+    "tin": "22061463",
+    "bank_account": "ACCT-23185848",
+    "status": "inactive",
+    "created_at": "2025-09-25T10:00:00",
+    "updated_at": "2025-09-25T11:00:00"
+  },
+  "17": {
+    "vendor_id": "17",
+    "name": "Weeks and Sons",
+    "tin": "43630775",
+    "bank_account": "ACCT-27064101",
+    "status": "blocked",
+    "created_at": "2025-09-26T10:00:00",
+    "updated_at": "2025-09-26T11:00:00"
+  },
+  "18": {
+    "vendor_id": "18",
+    "name": "Mcdonald and Sons",
+    "tin": "17878515",
+    "bank_account": "ACCT-63556301",
+    "status": "active",
+    "created_at": "2025-09-27T10:00:00",
+    "updated_at": "2025-09-27T11:00:00"
+  },
+  "19": {
+    "vendor_id": "19",
+    "name": "Woods Group",
+    "tin": "15410531",
+    "bank_account": "ACCT-14565669",
+    "status": "inactive",
+    "created_at": "2025-09-28T10:00:00",
+    "updated_at": "2025-09-28T11:00:00"
+  },
+  "20": {
+    "vendor_id": "20",
+    "name": "Maldonado PLC",
+    "tin": "11004909",
+    "bank_account": "ACCT-18396483",
+    "status": "blocked",
+    "created_at": "2025-09-29T10:00:00",
+    "updated_at": "2025-09-29T11:00:00"
+  },
+  "21": {
+    "vendor_id": "21",
+    "name": "Scott-Morales",
+    "tin": "46340439",
+    "bank_account": "ACCT-13346096",
+    "status": "active",
+    "created_at": "2025-09-30T10:00:00",
+    "updated_at": "2025-09-30T11:00:00"
+  },
+  "22": {
+    "vendor_id": "22",
+    "name": "Tucker, Sanchez and Roberts",
+    "tin": "72847157",
+    "bank_account": "ACCT-83059850",
+    "status": "inactive",
+    "created_at": "2025-10-01T10:00:00",
+    "updated_at": "2025-10-01T11:00:00"
+  },
+  "23": {
+    "vendor_id": "23",
+    "name": "Williams, Mcmillan and Mills",
+    "tin": "80291513",
+    "bank_account": "ACCT-63324531",
+    "status": "blocked",
+    "created_at": "2025-10-02T10:00:00",
+    "updated_at": "2025-10-02T11:00:00"
+  },
+  "24": {
+    "vendor_id": "24",
+    "name": "Aguirre-Atkins",
+    "tin": "53690003",
+    "bank_account": "ACCT-29512008",
+    "status": "active",
+    "created_at": "2025-10-03T10:00:00",
+    "updated_at": "2025-10-03T11:00:00"
+  },
+  "25": {
+    "vendor_id": "25",
+    "name": "Morrow LLC",
+    "tin": "58007579",
+    "bank_account": "ACCT-96313209",
+    "status": "inactive",
+    "created_at": "2025-10-04T10:00:00",
+    "updated_at": "2025-10-04T11:00:00"
+  }
+}

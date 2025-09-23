@@ -1,0 +1,252 @@
+{
+  "1": {
+    "approval_id": "1",
+    "action": "reimbursement",
+    "requested_by_user_id": "1",
+    "approver_user_id": "8",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-09-29T10:00:00",
+    "updated_at": "2025-09-29T11:00:00"
+  },
+  "2": {
+    "approval_id": "2",
+    "action": "benefits_plan",
+    "requested_by_user_id": "2",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-09-30T10:00:00",
+    "updated_at": "2025-09-30T11:00:00"
+  },
+  "3": {
+    "approval_id": "3",
+    "action": "payroll_run",
+    "requested_by_user_id": "3",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-01T10:00:00",
+    "updated_at": "2025-10-01T11:00:00"
+  },
+  "4": {
+    "approval_id": "4",
+    "action": "reimbursement",
+    "requested_by_user_id": "4",
+    "approver_user_id": "8",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-02T10:00:00",
+    "updated_at": "2025-10-02T11:00:00"
+  },
+  "5": {
+    "approval_id": "5",
+    "action": "benefits_plan",
+    "requested_by_user_id": "5",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-03T10:00:00",
+    "updated_at": "2025-10-03T11:00:00"
+  },
+  "6": {
+    "approval_id": "6",
+    "action": "payroll_run",
+    "requested_by_user_id": "6",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-04T10:00:00",
+    "updated_at": "2025-10-04T11:00:00"
+  },
+  "7": {
+    "approval_id": "7",
+    "action": "reimbursement",
+    "requested_by_user_id": "7",
+    "approver_user_id": "5",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-05T10:00:00",
+    "updated_at": "2025-10-05T11:00:00"
+  },
+  "8": {
+    "approval_id": "8",
+    "action": "benefits_plan",
+    "requested_by_user_id": "8",
+    "approver_user_id": "19",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-06T10:00:00",
+    "updated_at": "2025-10-06T11:00:00"
+  },
+  "9": {
+    "approval_id": "9",
+    "action": "payroll_run",
+    "requested_by_user_id": "9",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-07T10:00:00",
+    "updated_at": "2025-10-07T11:00:00"
+  },
+  "10": {
+    "approval_id": "10",
+    "action": "reimbursement",
+    "requested_by_user_id": "10",
+    "approver_user_id": "5",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-08T10:00:00",
+    "updated_at": "2025-10-08T11:00:00"
+  },
+  "11": {
+    "approval_id": "11",
+    "action": "benefits_plan",
+    "requested_by_user_id": "11",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-09T10:00:00",
+    "updated_at": "2025-10-09T11:00:00"
+  },
+  "12": {
+    "approval_id": "12",
+    "action": "payroll_run",
+    "requested_by_user_id": "12",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-10T10:00:00",
+    "updated_at": "2025-10-10T11:00:00"
+  },
+  "13": {
+    "approval_id": "13",
+    "action": "reimbursement",
+    "requested_by_user_id": "13",
+    "approver_user_id": "8",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-11T10:00:00",
+    "updated_at": "2025-10-11T11:00:00"
+  },
+  "14": {
+    "approval_id": "14",
+    "action": "benefits_plan",
+    "requested_by_user_id": "14",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-12T10:00:00",
+    "updated_at": "2025-10-12T11:00:00"
+  },
+  "15": {
+    "approval_id": "15",
+    "action": "payroll_run",
+    "requested_by_user_id": "15",
+    "approver_user_id": "8",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-13T10:00:00",
+    "updated_at": "2025-10-13T11:00:00"
+  },
+  "16": {
+    "approval_id": "16",
+    "action": "reimbursement",
+    "requested_by_user_id": "16",
+    "approver_user_id": "5",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-14T10:00:00",
+    "updated_at": "2025-10-14T11:00:00"
+  },
+  "17": {
+    "approval_id": "17",
+    "action": "benefits_plan",
+    "requested_by_user_id": "17",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-15T10:00:00",
+    "updated_at": "2025-10-15T11:00:00"
+  },
+  "18": {
+    "approval_id": "18",
+    "action": "payroll_run",
+    "requested_by_user_id": "18",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-16T10:00:00",
+    "updated_at": "2025-10-16T11:00:00"
+  },
+  "19": {
+    "approval_id": "19",
+    "action": "reimbursement",
+    "requested_by_user_id": "19",
+    "approver_user_id": "8",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-17T10:00:00",
+    "updated_at": "2025-10-17T11:00:00"
+  },
+  "20": {
+    "approval_id": "20",
+    "action": "benefits_plan",
+    "requested_by_user_id": "20",
+    "approver_user_id": "12",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-18T10:00:00",
+    "updated_at": "2025-10-18T11:00:00"
+  },
+  "21": {
+    "approval_id": "21",
+    "action": "payroll_run",
+    "requested_by_user_id": "21",
+    "approver_user_id": "5",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-19T10:00:00",
+    "updated_at": "2025-10-19T11:00:00"
+  },
+  "22": {
+    "approval_id": "22",
+    "action": "reimbursement",
+    "requested_by_user_id": "22",
+    "approver_user_id": "5",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-20T10:00:00",
+    "updated_at": "2025-10-20T11:00:00"
+  },
+  "23": {
+    "approval_id": "23",
+    "action": "benefits_plan",
+    "requested_by_user_id": "23",
+    "approver_user_id": "19",
+    "status": "pending",
+    "notes": "benefits_plan approval pending",
+    "created_at": "2025-10-21T10:00:00",
+    "updated_at": "2025-10-21T11:00:00"
+  },
+  "24": {
+    "approval_id": "24",
+    "action": "payroll_run",
+    "requested_by_user_id": "24",
+    "approver_user_id": "13",
+    "status": "approved",
+    "notes": "payroll_run approval approved",
+    "created_at": "2025-10-22T10:00:00",
+    "updated_at": "2025-10-22T11:00:00"
+  },
+  "25": {
+    "approval_id": "25",
+    "action": "reimbursement",
+    "requested_by_user_id": "25",
+    "approver_user_id": "13",
+    "status": "rejected",
+    "notes": "reimbursement approval rejected",
+    "created_at": "2025-10-23T10:00:00",
+    "updated_at": "2025-10-23T11:00:00"
+  }
+}

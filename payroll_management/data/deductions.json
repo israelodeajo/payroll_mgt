@@ -1,0 +1,252 @@
+{
+  "1": {
+    "deduction_id": "1",
+    "name": "SOCIAL_SECURITY_1",
+    "deduction_type": "social_security",
+    "method": "percent",
+    "rate": 11.0,
+    "active": true,
+    "created_at": "2025-09-12T10:00:00",
+    "updated_at": "2025-09-12T11:00:00"
+  },
+  "2": {
+    "deduction_id": "2",
+    "name": "BENEFIT_2",
+    "deduction_type": "benefit",
+    "method": "fixed",
+    "rate": 27.0,
+    "active": true,
+    "created_at": "2025-09-13T10:00:00",
+    "updated_at": "2025-09-13T11:00:00"
+  },
+  "3": {
+    "deduction_id": "3",
+    "name": "GARNISHMENT_3",
+    "deduction_type": "garnishment",
+    "method": "percent",
+    "rate": 13.0,
+    "active": true,
+    "created_at": "2025-09-14T10:00:00",
+    "updated_at": "2025-09-14T11:00:00"
+  },
+  "4": {
+    "deduction_id": "4",
+    "name": "CUSTOM_4",
+    "deduction_type": "custom",
+    "method": "fixed",
+    "rate": 29.0,
+    "active": true,
+    "created_at": "2025-09-15T10:00:00",
+    "updated_at": "2025-09-15T11:00:00"
+  },
+  "5": {
+    "deduction_id": "5",
+    "name": "TAX_5",
+    "deduction_type": "tax",
+    "method": "percent",
+    "rate": 10.0,
+    "active": true,
+    "created_at": "2025-09-16T10:00:00",
+    "updated_at": "2025-09-16T11:00:00"
+  },
+  "6": {
+    "deduction_id": "6",
+    "name": "SOCIAL_SECURITY_6",
+    "deduction_type": "social_security",
+    "method": "fixed",
+    "rate": 31.0,
+    "active": true,
+    "created_at": "2025-09-17T10:00:00",
+    "updated_at": "2025-09-17T11:00:00"
+  },
+  "7": {
+    "deduction_id": "7",
+    "name": "BENEFIT_7",
+    "deduction_type": "benefit",
+    "method": "percent",
+    "rate": 12.0,
+    "active": true,
+    "created_at": "2025-09-18T10:00:00",
+    "updated_at": "2025-09-18T11:00:00"
+  },
+  "8": {
+    "deduction_id": "8",
+    "name": "GARNISHMENT_8",
+    "deduction_type": "garnishment",
+    "method": "fixed",
+    "rate": 33.0,
+    "active": true,
+    "created_at": "2025-09-19T10:00:00",
+    "updated_at": "2025-09-19T11:00:00"
+  },
+  "9": {
+    "deduction_id": "9",
+    "name": "CUSTOM_9",
+    "deduction_type": "custom",
+    "method": "percent",
+    "rate": 14.0,
+    "active": false,
+    "created_at": "2025-09-20T10:00:00",
+    "updated_at": "2025-09-20T11:00:00"
+  },
+  "10": {
+    "deduction_id": "10",
+    "name": "TAX_10",
+    "deduction_type": "tax",
+    "method": "fixed",
+    "rate": 35.0,
+    "active": true,
+    "created_at": "2025-09-21T10:00:00",
+    "updated_at": "2025-09-21T11:00:00"
+  },
+  "11": {
+    "deduction_id": "11",
+    "name": "SOCIAL_SECURITY_11",
+    "deduction_type": "social_security",
+    "method": "percent",
+    "rate": 11.0,
+    "active": true,
+    "created_at": "2025-09-22T10:00:00",
+    "updated_at": "2025-09-22T11:00:00"
+  },
+  "12": {
+    "deduction_id": "12",
+    "name": "BENEFIT_12",
+    "deduction_type": "benefit",
+    "method": "fixed",
+    "rate": 37.0,
+    "active": true,
+    "created_at": "2025-09-23T10:00:00",
+    "updated_at": "2025-09-23T11:00:00"
+  },
+  "13": {
+    "deduction_id": "13",
+    "name": "GARNISHMENT_13",
+    "deduction_type": "garnishment",
+    "method": "percent",
+    "rate": 13.0,
+    "active": true,
+    "created_at": "2025-09-24T10:00:00",
+    "updated_at": "2025-09-24T11:00:00"
+  },
+  "14": {
+    "deduction_id": "14",
+    "name": "CUSTOM_14",
+    "deduction_type": "custom",
+    "method": "fixed",
+    "rate": 39.0,
+    "active": true,
+    "created_at": "2025-09-25T10:00:00",
+    "updated_at": "2025-09-25T11:00:00"
+  },
+  "15": {
+    "deduction_id": "15",
+    "name": "TAX_15",
+    "deduction_type": "tax",
+    "method": "percent",
+    "rate": 10.0,
+    "active": true,
+    "created_at": "2025-09-26T10:00:00",
+    "updated_at": "2025-09-26T11:00:00"
+  },
+  "16": {
+    "deduction_id": "16",
+    "name": "SOCIAL_SECURITY_16",
+    "deduction_type": "social_security",
+    "method": "fixed",
+    "rate": 41.0,
+    "active": true,
+    "created_at": "2025-09-27T10:00:00",
+    "updated_at": "2025-09-27T11:00:00"
+  },
+  "17": {
+    "deduction_id": "17",
+    "name": "BENEFIT_17",
+    "deduction_type": "benefit",
+    "method": "percent",
+    "rate": 12.0,
+    "active": true,
+    "created_at": "2025-09-28T10:00:00",
+    "updated_at": "2025-09-28T11:00:00"
+  },
+  "18": {
+    "deduction_id": "18",
+    "name": "GARNISHMENT_18",
+    "deduction_type": "garnishment",
+    "method": "fixed",
+    "rate": 43.0,
+    "active": false,
+    "created_at": "2025-09-29T10:00:00",
+    "updated_at": "2025-09-29T11:00:00"
+  },
+  "19": {
+    "deduction_id": "19",
+    "name": "CUSTOM_19",
+    "deduction_type": "custom",
+    "method": "percent",
+    "rate": 14.0,
+    "active": true,
+    "created_at": "2025-09-30T10:00:00",
+    "updated_at": "2025-09-30T11:00:00"
+  },
+  "20": {
+    "deduction_id": "20",
+    "name": "TAX_20",
+    "deduction_type": "tax",
+    "method": "fixed",
+    "rate": 25.0,
+    "active": true,
+    "created_at": "2025-10-01T10:00:00",
+    "updated_at": "2025-10-01T11:00:00"
+  },
+  "21": {
+    "deduction_id": "21",
+    "name": "SOCIAL_SECURITY_21",
+    "deduction_type": "social_security",
+    "method": "percent",
+    "rate": 11.0,
+    "active": true,
+    "created_at": "2025-10-02T10:00:00",
+    "updated_at": "2025-10-02T11:00:00"
+  },
+  "22": {
+    "deduction_id": "22",
+    "name": "BENEFIT_22",
+    "deduction_type": "benefit",
+    "method": "fixed",
+    "rate": 27.0,
+    "active": true,
+    "created_at": "2025-10-03T10:00:00",
+    "updated_at": "2025-10-03T11:00:00"
+  },
+  "23": {
+    "deduction_id": "23",
+    "name": "GARNISHMENT_23",
+    "deduction_type": "garnishment",
+    "method": "percent",
+    "rate": 13.0,
+    "active": true,
+    "created_at": "2025-10-04T10:00:00",
+    "updated_at": "2025-10-04T11:00:00"
+  },
+  "24": {
+    "deduction_id": "24",
+    "name": "CUSTOM_24",
+    "deduction_type": "custom",
+    "method": "fixed",
+    "rate": 29.0,
+    "active": true,
+    "created_at": "2025-10-05T10:00:00",
+    "updated_at": "2025-10-05T11:00:00"
+  },
+  "25": {
+    "deduction_id": "25",
+    "name": "TAX_25",
+    "deduction_type": "tax",
+    "method": "percent",
+    "rate": 10.0,
+    "active": true,
+    "created_at": "2025-10-06T10:00:00",
+    "updated_at": "2025-10-06T11:00:00"
+  }
+}

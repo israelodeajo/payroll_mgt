@@ -1,0 +1,252 @@
+{
+  "1": {
+    "line_item_id": "1",
+    "payroll_run_id": "1",
+    "employee_id": "1",
+    "gross_pay": 4845.0,
+    "total_deductions": 1248.8,
+    "net_pay": 3596.2,
+    "created_at": "2025-10-13T10:00:00",
+    "updated_at": "2025-10-13T11:00:00"
+  },
+  "2": {
+    "line_item_id": "2",
+    "payroll_run_id": "2",
+    "employee_id": "2",
+    "gross_pay": 4444.0,
+    "total_deductions": 753.93,
+    "net_pay": 3690.07,
+    "created_at": "2025-10-14T10:00:00",
+    "updated_at": "2025-10-14T11:00:00"
+  },
+  "3": {
+    "line_item_id": "3",
+    "payroll_run_id": "3",
+    "employee_id": "3",
+    "gross_pay": 1988.0,
+    "total_deductions": 528.01,
+    "net_pay": 1459.99,
+    "created_at": "2025-10-15T10:00:00",
+    "updated_at": "2025-10-15T11:00:00"
+  },
+  "4": {
+    "line_item_id": "4",
+    "payroll_run_id": "4",
+    "employee_id": "4",
+    "gross_pay": 5210.0,
+    "total_deductions": 1074.1,
+    "net_pay": 4135.9,
+    "created_at": "2025-10-16T10:00:00",
+    "updated_at": "2025-10-16T11:00:00"
+  },
+  "5": {
+    "line_item_id": "5",
+    "payroll_run_id": "5",
+    "employee_id": "5",
+    "gross_pay": 3645.0,
+    "total_deductions": 808.81,
+    "net_pay": 2836.19,
+    "created_at": "2025-10-17T10:00:00",
+    "updated_at": "2025-10-17T11:00:00"
+  },
+  "6": {
+    "line_item_id": "6",
+    "payroll_run_id": "6",
+    "employee_id": "6",
+    "gross_pay": 4517.0,
+    "total_deductions": 871.75,
+    "net_pay": 3645.25,
+    "created_at": "2025-10-18T10:00:00",
+    "updated_at": "2025-10-18T11:00:00"
+  },
+  "7": {
+    "line_item_id": "7",
+    "payroll_run_id": "7",
+    "employee_id": "7",
+    "gross_pay": 3457.0,
+    "total_deductions": 492.82,
+    "net_pay": 2964.18,
+    "created_at": "2025-10-19T10:00:00",
+    "updated_at": "2025-10-19T11:00:00"
+  },
+  "8": {
+    "line_item_id": "8",
+    "payroll_run_id": "8",
+    "employee_id": "8",
+    "gross_pay": 3584.0,
+    "total_deductions": 724.06,
+    "net_pay": 2859.94,
+    "created_at": "2025-10-20T10:00:00",
+    "updated_at": "2025-10-20T11:00:00"
+  },
+  "9": {
+    "line_item_id": "9",
+    "payroll_run_id": "9",
+    "employee_id": "9",
+    "gross_pay": 2358.0,
+    "total_deductions": 479.46,
+    "net_pay": 1878.54,
+    "created_at": "2025-10-21T10:00:00",
+    "updated_at": "2025-10-21T11:00:00"
+  },
+  "10": {
+    "line_item_id": "10",
+    "payroll_run_id": "10",
+    "employee_id": "10",
+    "gross_pay": 4569.0,
+    "total_deductions": 505.14,
+    "net_pay": 4063.86,
+    "created_at": "2025-10-22T10:00:00",
+    "updated_at": "2025-10-22T11:00:00"
+  },
+  "11": {
+    "line_item_id": "11",
+    "payroll_run_id": "11",
+    "employee_id": "11",
+    "gross_pay": 5862.0,
+    "total_deductions": 1507.67,
+    "net_pay": 4354.33,
+    "created_at": "2025-10-23T10:00:00",
+    "updated_at": "2025-10-23T11:00:00"
+  },
+  "12": {
+    "line_item_id": "12",
+    "payroll_run_id": "12",
+    "employee_id": "12",
+    "gross_pay": 4694.0,
+    "total_deductions": 715.87,
+    "net_pay": 3978.13,
+    "created_at": "2025-10-24T10:00:00",
+    "updated_at": "2025-10-24T11:00:00"
+  },
+  "13": {
+    "line_item_id": "13",
+    "payroll_run_id": "13",
+    "employee_id": "13",
+    "gross_pay": 5858.0,
+    "total_deductions": 1447.45,
+    "net_pay": 4410.55,
+    "created_at": "2025-10-25T10:00:00",
+    "updated_at": "2025-10-25T11:00:00"
+  },
+  "14": {
+    "line_item_id": "14",
+    "payroll_run_id": "14",
+    "employee_id": "14",
+    "gross_pay": 4021.0,
+    "total_deductions": 1001.58,
+    "net_pay": 3019.42,
+    "created_at": "2025-10-26T10:00:00",
+    "updated_at": "2025-10-26T11:00:00"
+  },
+  "15": {
+    "line_item_id": "15",
+    "payroll_run_id": "15",
+    "employee_id": "15",
+    "gross_pay": 3118.0,
+    "total_deductions": 888.91,
+    "net_pay": 2229.09,
+    "created_at": "2025-10-27T10:00:00",
+    "updated_at": "2025-10-27T11:00:00"
+  },
+  "16": {
+    "line_item_id": "16",
+    "payroll_run_id": "16",
+    "employee_id": "16",
+    "gross_pay": 2143.0,
+    "total_deductions": 617.44,
+    "net_pay": 1525.56,
+    "created_at": "2025-10-28T10:00:00",
+    "updated_at": "2025-10-28T11:00:00"
+  },
+  "17": {
+    "line_item_id": "17",
+    "payroll_run_id": "17",
+    "employee_id": "17",
+    "gross_pay": 3600.0,
+    "total_deductions": 643.44,
+    "net_pay": 2956.56,
+    "created_at": "2025-10-29T10:00:00",
+    "updated_at": "2025-10-29T11:00:00"
+  },
+  "18": {
+    "line_item_id": "18",
+    "payroll_run_id": "18",
+    "employee_id": "18",
+    "gross_pay": 3589.0,
+    "total_deductions": 853.74,
+    "net_pay": 2735.26,
+    "created_at": "2025-10-30T10:00:00",
+    "updated_at": "2025-10-30T11:00:00"
+  },
+  "19": {
+    "line_item_id": "19",
+    "payroll_run_id": "19",
+    "employee_id": "19",
+    "gross_pay": 3753.0,
+    "total_deductions": 453.65,
+    "net_pay": 3299.35,
+    "created_at": "2025-10-31T10:00:00",
+    "updated_at": "2025-10-31T11:00:00"
+  },
+  "20": {
+    "line_item_id": "20",
+    "payroll_run_id": "20",
+    "employee_id": "20",
+    "gross_pay": 5823.0,
+    "total_deductions": 1522.24,
+    "net_pay": 4300.76,
+    "created_at": "2025-11-01T10:00:00",
+    "updated_at": "2025-11-01T11:00:00"
+  },
+  "21": {
+    "line_item_id": "21",
+    "payroll_run_id": "21",
+    "employee_id": "21",
+    "gross_pay": 4948.0,
+    "total_deductions": 1116.89,
+    "net_pay": 3831.11,
+    "created_at": "2025-11-02T10:00:00",
+    "updated_at": "2025-11-02T11:00:00"
+  },
+  "22": {
+    "line_item_id": "22",
+    "payroll_run_id": "22",
+    "employee_id": "22",
+    "gross_pay": 5563.0,
+    "total_deductions": 1023.2,
+    "net_pay": 4539.8,
+    "created_at": "2025-11-03T10:00:00",
+    "updated_at": "2025-11-03T11:00:00"
+  },
+  "23": {
+    "line_item_id": "23",
+    "payroll_run_id": "23",
+    "employee_id": "23",
+    "gross_pay": 4849.0,
+    "total_deductions": 1362.18,
+    "net_pay": 3486.82,
+    "created_at": "2025-11-04T10:00:00",
+    "updated_at": "2025-11-04T11:00:00"
+  },
+  "24": {
+    "line_item_id": "24",
+    "payroll_run_id": "24",
+    "employee_id": "24",
+    "gross_pay": 4306.0,
+    "total_deductions": 1028.14,
+    "net_pay": 3277.86,
+    "created_at": "2025-11-05T10:00:00",
+    "updated_at": "2025-11-05T11:00:00"
+  },
+  "25": {
+    "line_item_id": "25",
+    "payroll_run_id": "25",
+    "employee_id": "25",
+    "gross_pay": 4976.0,
+    "total_deductions": 1402.34,
+    "net_pay": 3573.66,
+    "created_at": "2025-11-06T10:00:00",
+    "updated_at": "2025-11-06T11:00:00"
+  }
+}
