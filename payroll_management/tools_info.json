@@ -1,0 +1,364 @@
+{
+  "params": [
+    {
+      "interface": "interface_1",
+      "api_name": "activate_user",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "add_rbac_role",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "approve_request",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "create_unit",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "list_units",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "lookup_user",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "record_audit",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "register_account",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "reject_request",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "request_admin_approval",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "revise_unit",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "suspend_user",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "add_candidate",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "advance_stage",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "book_interview",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "close_opening",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "create_position",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "file_application",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "finalize_interview",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "flag_compliance_case",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "link_application_doc",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "list_open_positions",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "publish_opening",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "withdraw_application",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "assign_training",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "complete_training",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "deactivate_user_account",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "list_employee_docs",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "offboard_employee",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "onboard_employee",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "set_manager",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "start_review_cycle",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "submit_review",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "update_employee_profile",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "upload_document",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "verify_compliance_docs",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "approve_payroll_run",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "approve_timesheet",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "compute_leave_balance",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "correct_payroll",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "gen_payroll_line_items",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "list_timesheets",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "pay_payroll_run",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "process_reimbursement",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "request_leave",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "start_payroll_run",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "submit_timesheet",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "update_reimbursement",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "approve_item",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "complete_training_prog",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "create_benefits_plan",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "create_training_program",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "enroll_benefit",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "enroll_training",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "record_approval",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "reject_item",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "start_performance_review",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "submit_approve_review",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "terminate_benefit",
+      "params": [],
+      "name_mismatch": false
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "update_benefits_plan",
+      "params": [],
+      "name_mismatch": false
+    }
+  ]
+}

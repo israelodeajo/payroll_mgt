@@ -1,0 +1,70 @@
+interface_1:
+  set:
+    - provision_user
+    - create_department
+    - update_department
+    - log_audit
+  get:
+    - get_user_by_email
+    - get_department_by_name
+    - list_departments
+    - list_users_by_role
+
+interface_2:
+  set:
+    - create_job_position
+    - post_job_opening
+    - close_job_opening
+    - add_candidate
+    - create_job_application
+    - advance_application_stage
+    - schedule_interview
+    - record_interview_outcome
+  get:
+    - get_position_by_title
+    - list_open_positions
+    - get_candidate_by_email
+    - list_applications_by_position
+    - list_interviews_by_application
+
+interface_3:
+  set:
+    - employee_onboard
+    - update_employee_profile
+    - employee_offboard
+    - upload_document
+  get:
+    - get_employee_by_user
+    - list_documents_by_employee
+    - get_document_meta
+
+interface_4:
+  set:
+    - submit_timesheet
+    - approve_timesheet
+    - run_payroll
+    - correct_payroll
+    - process_reimbursement
+    - update_reimbursement
+    - request_leave
+  get:
+    - list_timesheets_by_employee
+    - get_payroll_run
+    - list_reimbursements_by_employee
+    - list_leave_requests_by_employee
+
+interface_5:
+  set:
+    - create_benefits_plan
+    - enroll_benefit
+    - start_performance_review
+    - submit_approve_review
+    - create_training_program
+    - enroll_training
+    - record_approval
+  get:
+    - list_benefit_plans
+    - list_employee_benefits
+    - get_performance_review
+    - list_training_programs
+    - list_employee_training

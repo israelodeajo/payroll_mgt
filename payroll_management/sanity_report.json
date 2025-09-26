@@ -1,0 +1,903 @@
+{
+  "base_folder": "/Users/mac/Downloads/amazon-tau-bench-tasks-main/envs/payroll_management/tools",
+  "timestamp": "2025-09-26T11:51:40.490171Z",
+  "interfaces": [
+    "interface_1",
+    "interface_2",
+    "interface_3",
+    "interface_4",
+    "interface_5"
+  ],
+  "ignored_files": [
+    "__init__.py",
+    "policy.md"
+  ],
+  "yaml_path": "/Users/mac/Downloads/amazon-tau-bench-tasks-main/envs/payroll_management/tools/get_set_APIs.yaml",
+  "tools_info_path": "/Users/mac/Downloads/amazon-tau-bench-tasks-main/envs/payroll_management/tools_info.json",
+  "summary": {
+    "interfaces": {
+      "interface_1": {
+        "total_apis": 12,
+        "get": {
+          "count": 2,
+          "percent": 16.67
+        },
+        "set": {
+          "count": 10,
+          "percent": 83.33
+        }
+      },
+      "interface_2": {
+        "total_apis": 12,
+        "get": {
+          "count": 1,
+          "percent": 8.33
+        },
+        "set": {
+          "count": 11,
+          "percent": 91.67
+        }
+      },
+      "interface_3": {
+        "total_apis": 12,
+        "get": {
+          "count": 1,
+          "percent": 8.33
+        },
+        "set": {
+          "count": 11,
+          "percent": 91.67
+        }
+      },
+      "interface_4": {
+        "total_apis": 12,
+        "get": {
+          "count": 2,
+          "percent": 16.67
+        },
+        "set": {
+          "count": 10,
+          "percent": 83.33
+        }
+      },
+      "interface_5": {
+        "total_apis": 12,
+        "get": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "set": {
+          "count": 12,
+          "percent": 100.0
+        }
+      }
+    },
+    "overall": {
+      "total_apis": 60,
+      "get": {
+        "count": 6,
+        "percent": 10.0
+      },
+      "set": {
+        "count": 54,
+        "percent": 90.0
+      }
+    }
+  },
+  "duplicates": [],
+  "interface_file_yaml_comparison": {
+    "interface_1": {
+      "files_count": 12,
+      "yaml_count": 12,
+      "missing_in_yaml": [],
+      "extra_in_yaml": []
+    },
+    "interface_2": {
+      "files_count": 12,
+      "yaml_count": 12,
+      "missing_in_yaml": [],
+      "extra_in_yaml": []
+    },
+    "interface_3": {
+      "files_count": 12,
+      "yaml_count": 12,
+      "missing_in_yaml": [],
+      "extra_in_yaml": []
+    },
+    "interface_4": {
+      "files_count": 12,
+      "yaml_count": 12,
+      "missing_in_yaml": [],
+      "extra_in_yaml": []
+    },
+    "interface_5": {
+      "files_count": 12,
+      "yaml_count": 12,
+      "missing_in_yaml": [],
+      "extra_in_yaml": []
+    }
+  },
+  "extra_apis_in_tools_info": [],
+  "apis": [
+    {
+      "interface": "interface_1",
+      "api_name": "list_units",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "lookup_user",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "register_account",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "create_unit",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "revise_unit",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "record_audit",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "add_rbac_role",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "suspend_user",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "activate_user",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "request_admin_approval",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "approve_request",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_1",
+      "api_name": "reject_request",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "list_open_positions",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "create_position",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "publish_opening",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "close_opening",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "add_candidate",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "file_application",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "advance_stage",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "book_interview",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "finalize_interview",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "withdraw_application",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "link_application_doc",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_2",
+      "api_name": "flag_compliance_case",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "list_employee_docs",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "onboard_employee",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "update_employee_profile",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "offboard_employee",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "upload_document",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "set_manager",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "deactivate_user_account",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "verify_compliance_docs",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "assign_training",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "complete_training",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "start_review_cycle",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_3",
+      "api_name": "submit_review",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "list_timesheets",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "compute_leave_balance",
+      "classification": "get",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "submit_timesheet",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "approve_timesheet",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "start_payroll_run",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "approve_payroll_run",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "pay_payroll_run",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "correct_payroll",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "request_leave",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "process_reimbursement",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "update_reimbursement",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_4",
+      "api_name": "gen_payroll_line_items",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "create_benefits_plan",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "update_benefits_plan",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "enroll_benefit",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "terminate_benefit",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "record_approval",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "approve_item",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "reject_item",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "create_training_program",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "enroll_training",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "complete_training_prog",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "start_performance_review",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    },
+    {
+      "interface": "interface_5",
+      "api_name": "submit_approve_review",
+      "classification": "set",
+      "params": [],
+      "param_match": true,
+      "param_mismatch": {
+        "missing_in_tools": [],
+        "extra_in_tools": [],
+        "type_or_optional_diff": []
+      },
+      "param_diff_summary": []
+    }
+  ]
+}

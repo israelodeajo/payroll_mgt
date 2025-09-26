@@ -1,0 +1,79 @@
+interface_1:
+  set:
+    - register_account
+    - create_unit
+    - revise_unit
+    - record_audit
+    - add_rbac_role
+    - suspend_user
+    - activate_user
+    - request_admin_approval
+    - approve_request
+    - reject_request
+  get:
+    - list_units
+    - lookup_user
+
+interface_2:
+  set:
+    - create_position
+    - publish_opening
+    - close_opening
+    - add_candidate
+    - file_application
+    - advance_stage
+    - book_interview
+    - finalize_interview
+    - withdraw_application
+    - link_application_doc
+    - flag_compliance_case
+  get:
+    - list_open_positions
+
+interface_3:
+  set:
+    - onboard_employee
+    - update_employee_profile
+    - offboard_employee
+    - upload_document
+    - set_manager
+    - deactivate_user_account
+    - verify_compliance_docs
+    - assign_training
+    - complete_training
+    - start_review_cycle
+    - submit_review
+  get:
+    - list_employee_docs
+
+interface_4:
+  set:
+    - submit_timesheet
+    - approve_timesheet
+    - start_payroll_run
+    - approve_payroll_run
+    - pay_payroll_run
+    - correct_payroll
+    - request_leave
+    - process_reimbursement
+    - update_reimbursement
+    - gen_payroll_line_items
+  get:
+    - list_timesheets
+    - compute_leave_balance
+
+interface_5:
+  set:
+    - create_benefits_plan
+    - update_benefits_plan
+    - enroll_benefit
+    - terminate_benefit
+    - record_approval
+    - approve_item
+    - reject_item
+    - create_training_program
+    - enroll_training
+    - complete_training_prog
+    - start_performance_review
+    - submit_approve_review
+  get: []
