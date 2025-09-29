@@ -1,0 +1,208 @@
+foreign_keys:
+
+  # users ↔ employees
+  - parent_table: users
+    parent_column: user_id
+    child_table: employees
+    child_column: user_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: employees
+    child_column: manager_user_id
+    type: 1:N
+
+  # timesheets
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: timesheets
+    child_column: employee_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: timesheets
+    child_column: approver_user_id
+    type: 1:N
+
+  # payroll runs & line items
+  - parent_table: users
+    parent_column: user_id
+    child_table: payroll_runs
+    child_column: initiated_by_user_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: payroll_runs
+    child_column: approved_by_user_id
+    type: 1:N
+
+  - parent_table: payroll_runs
+    parent_column: payroll_run_id
+    child_table: payroll_line_items
+    child_column: payroll_run_id
+    type: 1:N
+
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: payroll_line_items
+    child_column: employee_id
+    type: 1:N
+
+  # deductions
+  - parent_table: deductions
+    parent_column: deduction_id
+    child_table: employee_deductions
+    child_column: deduction_id
+    type: 1:N
+
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: employee_deductions
+    child_column: employee_id
+    type: 1:N
+
+  # corrections
+  - parent_table: payroll_runs
+    parent_column: payroll_run_id
+    child_table: payroll_corrections
+    child_column: payroll_run_id
+    type: 1:N
+
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: payroll_corrections
+    child_column: employee_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: payroll_corrections
+    child_column: approved_by_user_id
+    type: 1:N
+
+  # benefits
+  - parent_table: benefits_plans
+    parent_column: plan_id
+    child_table: employee_benefits
+    child_column: plan_id
+    type: 1:N
+
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: employee_benefits
+    child_column: employee_id
+    type: 1:N
+
+  # reimbursements
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: expense_reimbursements
+    child_column: employee_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: expense_reimbursements
+    child_column: approved_by_user_id
+    type: 1:N
+
+  # leave
+  - parent_table: employees
+    parent_column: employee_id
+    child_table: leave_requests
+    child_column: employee_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: leave_requests
+    child_column: approved_by_user_id
+    type: 1:N
+
+  # approvals
+  - parent_table: users
+    parent_column: user_id
+    child_table: approvals
+    child_column: requested_by_user_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: approvals
+    child_column: approver_user_id
+    type: 1:N
+
+  # audits (user who performed the action)
+  - parent_table: users
+    parent_column: user_id
+    child_table: audit_logs
+    child_column: user_id
+    type: 1:N
+
+  # vendors & payments
+  - parent_table: vendors
+    parent_column: vendor_id
+    child_table: vendor_payments
+    child_column: vendor_id
+    type: 1:N
+
+  - parent_table: users
+    parent_column: user_id
+    child_table: vendor_payments
+    child_column: approved_by_user_id
+    type: 1:N
+
+generic_foreign_keys:
+  # audit_logs reference many tables via (table_name, record_id)
+  - child_table: audit_logs
+    type_column: table_name
+    id_column: record_id
+    mapping:
+      users:
+        parent_table: users
+        parent_column: user_id
+      employees:
+        parent_table: employees
+        parent_column: employee_id
+      timesheets:
+        parent_table: timesheets
+        parent_column: timesheet_id
+      payroll_runs:
+        parent_table: payroll_runs
+        parent_column: payroll_run_id
+      payroll_line_items:
+        parent_table: payroll_line_items
+        parent_column: line_item_id
+      deductions:
+        parent_table: deductions
+        parent_column: deduction_id
+      employee_deductions:
+        parent_table: employee_deductions
+        parent_column: employee_deduction_id
+      payroll_corrections:
+        parent_table: payroll_corrections
+        parent_column: correction_id
+      benefits_plans:
+        parent_table: benefits_plans
+        parent_column: plan_id
+      employee_benefits:
+        parent_table: employee_benefits
+        parent_column: employee_benefit_id
+      expense_reimbursements:
+        parent_table: expense_reimbursements
+        parent_column: reimbursement_id
+      leave_requests:
+        parent_table: leave_requests
+        parent_column: leave_request_id
+      approvals:
+        parent_table: approvals
+        parent_column: approval_id
+      vendors:
+        parent_table: vendors
+        parent_column: vendor_id
+      vendor_payments:
+        parent_table: vendor_payments
+        parent_column: vendor_payment_id

@@ -15,7 +15,7 @@ If any external integration (DB/API/file store) fails, **halt** and report the e
 
 All monetary values are processed in the organization’s base currency (default: **USD**).
 
----
+------
 
 ## Global Rules (Apply to all SOPs)
 

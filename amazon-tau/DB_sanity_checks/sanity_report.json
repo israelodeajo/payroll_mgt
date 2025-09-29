@@ -1,0 +1,2753 @@
+{
+  "timestamp": "2025-09-29T00:11:17.240983",
+  "tables": {
+    "vendors": {
+      "row_count": 8,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "vendor_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "benefits_plans": {
+      "row_count": 5,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "plan_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "deductions": {
+      "row_count": 6,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "deduction_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "payroll_line_items": {
+      "row_count": 48,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "line_item_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "payroll_runs": {
+      "row_count": 8,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "payroll_run_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "users": {
+      "row_count": 40,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "user_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "timesheets": {
+      "row_count": 200,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "timesheet_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "expense_reimbursements": {
+      "row_count": 25,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "reimbursement_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "employees": {
+      "row_count": 25,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "employee_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "leave_requests": {
+      "row_count": 25,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "leave_request_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "approvals": {
+      "row_count": 30,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "approval_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "payroll_corrections": {
+      "row_count": 10,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "correction_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "audit_logs": {
+      "row_count": 80,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "audit_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "employee_benefits": {
+      "row_count": 50,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "employee_benefit_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "vendor_payments": {
+      "row_count": 20,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "vendor_payment_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    },
+    "employee_deductions": {
+      "row_count": 50,
+      "checks": [
+        {
+          "check": "Keys are strings",
+          "result": true
+        },
+        {
+          "check": "employee_deduction_id matches key",
+          "result": true
+        },
+        {
+          "check": "Primary keys non-null",
+          "result": true
+        },
+        {
+          "check": "Primary keys unique",
+          "result": true
+        }
+      ]
+    }
+  },
+  "enum_tables": {
+    "vendors": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "benefits_plans": [
+      {
+        "check": "plan_type in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      },
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "deductions": [
+      {
+        "check": "deduction_type in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      },
+      {
+        "check": "method in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "payroll_line_items": [],
+    "payroll_runs": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "users": [
+      {
+        "check": "role in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      },
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "timesheets": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "expense_reimbursements": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "employees": [
+      {
+        "check": "pay_frequency in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "leave_requests": [
+      {
+        "check": "leave_type in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      },
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "approvals": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "payroll_corrections": [],
+    "audit_logs": [
+      {
+        "check": "action in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "employee_benefits": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "vendor_payments": [
+      {
+        "check": "status in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ],
+    "employee_deductions": [
+      {
+        "check": "method in enum",
+        "result": true,
+        "details": {
+          "invalid_values": [],
+          "sample_keys": []
+        }
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "null_count": 0,
+        "non_null_count": 25
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.user_id",
+      "check": "Child column unique (1:1)",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_child_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "manager_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "manager_user_id",
+        "null_count": 0,
+        "non_null_count": 25
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "manager_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 employees.manager_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.92,
+        "min": 1,
+        "max": 4,
+        "top5_parents_by_children": {
+          "18": 4,
+          "35": 3,
+          "24": 3,
+          "27": 3,
+          "19": 2
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "timesheets",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 200
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 timesheets.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 8.0,
+        "min": 8,
+        "max": 8,
+        "top5_parents_by_children": {
+          "1": 8,
+          "2": 8,
+          "3": 8,
+          "4": 8,
+          "5": 8
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "timesheets",
+        "column": "approver_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approver_user_id",
+        "null_count": 0,
+        "non_null_count": 200
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approver_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 timesheets.approver_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 22.22,
+        "min": 18,
+        "max": 25,
+        "top5_parents_by_children": {
+          "24": 25,
+          "20": 24,
+          "30": 24,
+          "19": 23,
+          "23": 23
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_runs",
+        "column": "initiated_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "initiated_by_user_id",
+        "null_count": 0,
+        "non_null_count": 8
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "initiated_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.initiated_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 8.0,
+        "min": 8,
+        "max": 8,
+        "top5_parents_by_children": {
+          "39": 8
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_runs",
+        "column": "approved_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "null_count": 3,
+        "non_null_count": 5
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_runs.approved_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 5.0,
+        "min": 5,
+        "max": 5,
+        "top5_parents_by_children": {
+          "9": 5
+        }
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_runs",
+        "column": "payroll_run_id"
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_line_items",
+        "column": "payroll_run_id"
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "null_count": 0,
+        "non_null_count": 48
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_line_items.payroll_run_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 6.0,
+        "min": 6,
+        "max": 6,
+        "top5_parents_by_children": {
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_line_items",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 48
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_line_items.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 2.18,
+        "min": 1,
+        "max": 4,
+        "top5_parents_by_children": {
+          "9": 4,
+          "14": 4,
+          "5": 3,
+          "18": 3,
+          "23": 3
+        }
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "deductions",
+        "column": "deduction_id"
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employee_deductions",
+        "column": "deduction_id"
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "deduction_id",
+        "null_count": 0,
+        "non_null_count": 50
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "deduction_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "deduction_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "deductions.deduction_id \u2192 employee_deductions.deduction_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 8.33,
+        "min": 4,
+        "max": 13,
+        "top5_parents_by_children": {
+          "4": 13,
+          "6": 10,
+          "3": 10,
+          "5": 7,
+          "1": 6
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employee_deductions",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 50
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_deductions.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 2.0,
+        "min": 2,
+        "max": 2,
+        "top5_parents_by_children": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2
+        }
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_runs",
+        "column": "payroll_run_id"
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_corrections",
+        "column": "payroll_run_id"
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "null_count": 0,
+        "non_null_count": 10
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "payroll_run_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "payroll_runs.payroll_run_id \u2192 payroll_corrections.payroll_run_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.43,
+        "min": 1,
+        "max": 3,
+        "top5_parents_by_children": {
+          "5": 3,
+          "1": 2,
+          "6": 1,
+          "3": 1,
+          "8": 1
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_corrections",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 10
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 payroll_corrections.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.11,
+        "min": 1,
+        "max": 2,
+        "top5_parents_by_children": {
+          "3": 2,
+          "8": 1,
+          "5": 1,
+          "6": 1,
+          "23": 1
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "payroll_corrections",
+        "column": "approved_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "null_count": 0,
+        "non_null_count": 10
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 payroll_corrections.approved_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 10.0,
+        "min": 10,
+        "max": 10,
+        "top5_parents_by_children": {
+          "9": 10
+        }
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "benefits_plans",
+        "column": "plan_id"
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employee_benefits",
+        "column": "plan_id"
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "plan_id",
+        "null_count": 0,
+        "non_null_count": 50
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "plan_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "plan_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "benefits_plans.plan_id \u2192 employee_benefits.plan_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 10.0,
+        "min": 8,
+        "max": 12,
+        "top5_parents_by_children": {
+          "1": 12,
+          "2": 11,
+          "4": 10,
+          "5": 9,
+          "3": 8
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "employee_benefits",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 50
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 employee_benefits.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 2.0,
+        "min": 2,
+        "max": 2,
+        "top5_parents_by_children": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "expense_reimbursements",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 25
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 expense_reimbursements.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.47,
+        "min": 1,
+        "max": 3,
+        "top5_parents_by_children": {
+          "10": 3,
+          "11": 2,
+          "14": 2,
+          "23": 2,
+          "19": 2
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "expense_reimbursements",
+        "column": "approved_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "null_count": 6,
+        "non_null_count": 19
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 expense_reimbursements.approved_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 19.0,
+        "min": 19,
+        "max": 19,
+        "top5_parents_by_children": {
+          "21": 19
+        }
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "employees",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "leave_requests",
+        "column": "employee_id"
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "null_count": 0,
+        "non_null_count": 25
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "employee_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "employees.employee_id \u2192 leave_requests.employee_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.67,
+        "min": 1,
+        "max": 3,
+        "top5_parents_by_children": {
+          "13": 3,
+          "22": 3,
+          "24": 3,
+          "23": 2,
+          "2": 2
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "leave_requests",
+        "column": "approved_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "null_count": 8,
+        "non_null_count": 17
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 leave_requests.approved_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 17.0,
+        "min": 17,
+        "max": 17,
+        "top5_parents_by_children": {
+          "7": 17
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "approvals",
+        "column": "requested_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "requested_by_user_id",
+        "null_count": 0,
+        "non_null_count": 30
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "requested_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.requested_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 1.43,
+        "min": 1,
+        "max": 4,
+        "top5_parents_by_children": {
+          "5": 4,
+          "3": 3,
+          "33": 2,
+          "9": 2,
+          "14": 2
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "approvals",
+        "column": "approver_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approver_user_id",
+        "null_count": 0,
+        "non_null_count": 30
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approver_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 approvals.approver_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 15.0,
+        "min": 13,
+        "max": 17,
+        "top5_parents_by_children": {
+          "21": 17,
+          "9": 13
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "audit_logs",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "null_count": 0,
+        "non_null_count": 80
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 audit_logs.user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 2.05,
+        "min": 1,
+        "max": 4,
+        "top5_parents_by_children": {
+          "21": 4,
+          "7": 4,
+          "25": 4,
+          "1": 4,
+          "16": 4
+        }
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "vendors",
+        "column": "vendor_id"
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "vendor_payments",
+        "column": "vendor_id"
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "vendor_id",
+        "null_count": 0,
+        "non_null_count": 20
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "vendor_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "vendor_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "vendors.vendor_id \u2192 vendor_payments.vendor_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 2.86,
+        "min": 2,
+        "max": 5,
+        "top5_parents_by_children": {
+          "3": 5,
+          "4": 4,
+          "6": 3,
+          "7": 2,
+          "2": 2
+        }
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "Parent column exists",
+      "result": true,
+      "details": {
+        "table": "users",
+        "column": "user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "Child column exists",
+      "result": true,
+      "details": {
+        "table": "vendor_payments",
+        "column": "approved_by_user_id"
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "Child column nulls",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "null_count": 1,
+        "non_null_count": 19
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "All children have parents",
+      "result": true,
+      "details": {
+        "column": "approved_by_user_id",
+        "missing_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "Parent column unique",
+      "result": true,
+      "details": {
+        "column": "user_id",
+        "duplicate_parent_ids_sample": [],
+        "count": 0
+      }
+    },
+    {
+      "relationship": "users.user_id \u2192 vendor_payments.approved_by_user_id",
+      "check": "Children per parent (distribution)",
+      "result": true,
+      "details": {
+        "avg": 19.0,
+        "min": 19,
+        "max": 19,
+        "top5_parents_by_children": {
+          "21": 19
+        }
+      }
+    },
+    {
+      "relationship": "audit_logs.record_id (type via table_name)",
+      "check": "All type values are mapped",
+      "result": true,
+      "details": {
+        "unmapped_types": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='approvals') \u2192 approvals.approval_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "approvals",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='approvals') \u2192 approvals.approval_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "approvals",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='benefits_plans') \u2192 benefits_plans.plan_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "benefits_plans",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='benefits_plans') \u2192 benefits_plans.plan_id",
+      "check": "Average children per parent (info)",
+      "result": 2.0,
+      "details": {
+        "type": "benefits_plans",
+        "max_children_for_single_parent": 3
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='deductions') \u2192 deductions.deduction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "deductions",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='deductions') \u2192 deductions.deduction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.4,
+      "details": {
+        "type": "deductions",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_benefits') \u2192 employee_benefits.employee_benefit_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employee_benefits",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_benefits') \u2192 employee_benefits.employee_benefit_id",
+      "check": "Average children per parent (info)",
+      "result": 1.25,
+      "details": {
+        "type": "employee_benefits",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_deductions') \u2192 employee_deductions.employee_deduction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employee_deductions",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_deductions') \u2192 employee_deductions.employee_deduction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "employee_deductions",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employees') \u2192 employees.employee_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employees",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employees') \u2192 employees.employee_id",
+      "check": "Average children per parent (info)",
+      "result": 1.67,
+      "details": {
+        "type": "employees",
+        "max_children_for_single_parent": 3
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='expense_reimbursements') \u2192 expense_reimbursements.reimbursement_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "expense_reimbursements",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='expense_reimbursements') \u2192 expense_reimbursements.reimbursement_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "expense_reimbursements",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='leave_requests') \u2192 leave_requests.leave_request_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "leave_requests",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='leave_requests') \u2192 leave_requests.leave_request_id",
+      "check": "Average children per parent (info)",
+      "result": 1.25,
+      "details": {
+        "type": "leave_requests",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_corrections') \u2192 payroll_corrections.correction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_corrections",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_corrections') \u2192 payroll_corrections.correction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.33,
+      "details": {
+        "type": "payroll_corrections",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_line_items') \u2192 payroll_line_items.line_item_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_line_items",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_line_items') \u2192 payroll_line_items.line_item_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "payroll_line_items",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_runs') \u2192 payroll_runs.payroll_run_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_runs",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_runs') \u2192 payroll_runs.payroll_run_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "payroll_runs",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='timesheets') \u2192 timesheets.timesheet_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "timesheets",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='timesheets') \u2192 timesheets.timesheet_id",
+      "check": "Average children per parent (info)",
+      "result": 1.5,
+      "details": {
+        "type": "timesheets",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='users') \u2192 users.user_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "users",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='users') \u2192 users.user_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "users",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendor_payments') \u2192 vendor_payments.vendor_payment_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "vendor_payments",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendor_payments') \u2192 vendor_payments.vendor_payment_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "vendor_payments",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendors') \u2192 vendors.vendor_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "vendors",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendors') \u2192 vendors.vendor_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "vendors",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.user_id \u2192 users.user_id",
+      "check": "All children have valid users",
+      "result": true,
+      "details": {
+        "missing_user_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    }
+  ],
+  "generic_relationships": [
+    {
+      "relationship": "audit_logs.record_id (type via table_name)",
+      "check": "All type values are mapped",
+      "result": true,
+      "details": {
+        "unmapped_types": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='approvals') \u2192 approvals.approval_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "approvals",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='approvals') \u2192 approvals.approval_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "approvals",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='benefits_plans') \u2192 benefits_plans.plan_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "benefits_plans",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='benefits_plans') \u2192 benefits_plans.plan_id",
+      "check": "Average children per parent (info)",
+      "result": 2.0,
+      "details": {
+        "type": "benefits_plans",
+        "max_children_for_single_parent": 3
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='deductions') \u2192 deductions.deduction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "deductions",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='deductions') \u2192 deductions.deduction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.4,
+      "details": {
+        "type": "deductions",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_benefits') \u2192 employee_benefits.employee_benefit_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employee_benefits",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_benefits') \u2192 employee_benefits.employee_benefit_id",
+      "check": "Average children per parent (info)",
+      "result": 1.25,
+      "details": {
+        "type": "employee_benefits",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_deductions') \u2192 employee_deductions.employee_deduction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employee_deductions",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employee_deductions') \u2192 employee_deductions.employee_deduction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "employee_deductions",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employees') \u2192 employees.employee_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "employees",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='employees') \u2192 employees.employee_id",
+      "check": "Average children per parent (info)",
+      "result": 1.67,
+      "details": {
+        "type": "employees",
+        "max_children_for_single_parent": 3
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='expense_reimbursements') \u2192 expense_reimbursements.reimbursement_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "expense_reimbursements",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='expense_reimbursements') \u2192 expense_reimbursements.reimbursement_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "expense_reimbursements",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='leave_requests') \u2192 leave_requests.leave_request_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "leave_requests",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='leave_requests') \u2192 leave_requests.leave_request_id",
+      "check": "Average children per parent (info)",
+      "result": 1.25,
+      "details": {
+        "type": "leave_requests",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_corrections') \u2192 payroll_corrections.correction_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_corrections",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_corrections') \u2192 payroll_corrections.correction_id",
+      "check": "Average children per parent (info)",
+      "result": 1.33,
+      "details": {
+        "type": "payroll_corrections",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_line_items') \u2192 payroll_line_items.line_item_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_line_items",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_line_items') \u2192 payroll_line_items.line_item_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "payroll_line_items",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_runs') \u2192 payroll_runs.payroll_run_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "payroll_runs",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='payroll_runs') \u2192 payroll_runs.payroll_run_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "payroll_runs",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='timesheets') \u2192 timesheets.timesheet_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "timesheets",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='timesheets') \u2192 timesheets.timesheet_id",
+      "check": "Average children per parent (info)",
+      "result": 1.5,
+      "details": {
+        "type": "timesheets",
+        "max_children_for_single_parent": 2
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='users') \u2192 users.user_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "users",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='users') \u2192 users.user_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "users",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendor_payments') \u2192 vendor_payments.vendor_payment_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "vendor_payments",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendor_payments') \u2192 vendor_payments.vendor_payment_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "vendor_payments",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendors') \u2192 vendors.vendor_id",
+      "check": "All children have parents (polymorphic)",
+      "result": true,
+      "details": {
+        "type": "vendors",
+        "child_column": "record_id",
+        "missing_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.record_id (type='vendors') \u2192 vendors.vendor_id",
+      "check": "Average children per parent (info)",
+      "result": 1.0,
+      "details": {
+        "type": "vendors",
+        "max_children_for_single_parent": 1
+      },
+      "kind": "generic"
+    },
+    {
+      "relationship": "audit_logs.user_id \u2192 users.user_id",
+      "check": "All children have valid users",
+      "result": true,
+      "details": {
+        "missing_user_ids": [],
+        "count": 0
+      },
+      "kind": "generic"
+    }
+  ],
+  "generic_fk_summary": {
+    "total_checks": 32,
+    "passes": 17,
+    "fails": 0,
+    "info_metrics_count": 15
+  }
+}

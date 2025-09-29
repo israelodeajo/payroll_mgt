@@ -1,0 +1,49 @@
+interface_1:
+  set:
+    - provision_user
+    - create_department
+    - update_department
+    - log_audit
+  get: []
+
+interface_2:
+  set:
+    - create_job_position
+    - post_job_opening
+    - close_job_opening
+    - add_candidate
+    - create_job_application
+    - advance_application_stage
+    - schedule_interview
+    - record_interview_outcome
+  get: []
+
+interface_3:
+  set:
+    - employee_onboard
+    - update_employee_profile
+    - employee_offboard
+    - upload_document
+  get: []
+
+interface_4:
+  set:
+    - submit_timesheet
+    - approve_timesheet
+    - run_payroll
+    - correct_payroll
+    - process_reimbursement
+    - update_reimbursement
+    - request_leave
+  get: []
+
+interface_5:
+  set:
+    - create_benefits_plan
+    - enroll_benefit
+    - start_performance_review
+    - submit_approve_review
+    - create_training_program
+    - enroll_training
+    - record_approval
+  get: []

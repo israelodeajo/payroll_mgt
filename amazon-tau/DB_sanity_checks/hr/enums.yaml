@@ -1,0 +1,125 @@
+enums:
+  users:
+    role:
+      - employee
+      - manager
+      - payroll_administrator
+      - finance_officer
+      - hr_director
+      - it_administrator
+      - compliance_officer
+    status:
+      - active
+      - inactive
+      - suspended
+
+  employees:
+    pay_frequency:
+      - weekly
+      - biweekly
+      - semimonthly
+      - monthly
+
+  timesheets:
+    status:
+      - submitted
+      - approved
+      - rejected
+
+  payroll_runs:
+    status:
+      - draft
+      - approved
+      - paid
+      - failed
+
+  payroll_line_items: {}
+
+  deductions:
+    deduction_type:
+      - tax
+      - social_security
+      - benefit
+      - garnishment
+      - custom
+    method:
+      - percent
+      - fixed
+
+  employee_deductions:
+    method:
+      - percent
+      - fixed
+
+  payroll_corrections: {}
+
+  benefits_plans:
+    plan_type:
+      - health
+      - dental
+      - vision
+      - retirement
+      - commuter
+      - life
+    status:
+      - active
+      - inactive
+      - pending
+
+  employee_benefits:
+    status:
+      - active
+      - inactive
+      - pending
+
+  expense_reimbursements:
+    status:
+      - submitted
+      - approved
+      - rejected
+      - paid
+
+  leave_requests:
+    leave_type:
+      - annual
+      - sick
+      - fmla
+      - personal
+      - bereavement
+      - jury_duty
+    status:
+      - active
+      - inactive
+      - pending
+
+  approvals:
+    status:
+      - approved
+      - rejected
+      - pending
+
+  audit_logs:
+    action:
+      - create
+      - read
+      - update
+      - delete
+      - approve
+      - reject
+      - login
+      - logout
+      - export
+
+  vendors:
+    status:
+      - active
+      - inactive
+      - blocked
+
+  vendor_payments:
+    status:
+      - submitted
+      - approved
+      - rejected
+      - paid
+      - failed

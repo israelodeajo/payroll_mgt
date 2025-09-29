@@ -1,0 +1,227 @@
+{
+  "1": {
+    "user_id": "1",
+    "email": "louiswarren@example.org",
+    "full_name": "Scott Keith",
+    "role": "manager",
+    "status": "active",
+    "created_at": "2025-09-01T11:00:00",
+    "updated_at": "2025-09-01T12:00:00"
+  },
+  "2": {
+    "user_id": "2",
+    "email": "zreed@example.net",
+    "full_name": "Christopher Acosta",
+    "role": "manager",
+    "status": "active",
+    "created_at": "2025-09-01T12:00:00",
+    "updated_at": "2025-09-01T13:00:00"
+  },
+  "3": {
+    "user_id": "3",
+    "email": "ronald23@example.net",
+    "full_name": "Jill Payne",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-01T13:00:00",
+    "updated_at": "2025-09-01T14:00:00"
+  },
+  "4": {
+    "user_id": "4",
+    "email": "ortegatammy@example.net",
+    "full_name": "James Meyer",
+    "role": "manager",
+    "status": "active",
+    "created_at": "2025-09-01T14:00:00",
+    "updated_at": "2025-09-01T15:00:00"
+  },
+  "5": {
+    "user_id": "5",
+    "email": "qyoung@example.net",
+    "full_name": "Nicholas Harris",
+    "role": "finance_officer",
+    "status": "active",
+    "created_at": "2025-09-01T15:00:00",
+    "updated_at": "2025-09-01T16:00:00"
+  },
+  "6": {
+    "user_id": "6",
+    "email": "samanthafranklin@example.org",
+    "full_name": "Brandon Brooks",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-01T16:00:00",
+    "updated_at": "2025-09-01T17:00:00"
+  },
+  "7": {
+    "user_id": "7",
+    "email": "walshjohnathan@example.com",
+    "full_name": "Jason Robertson",
+    "role": "payroll_administrator",
+    "status": "active",
+    "created_at": "2025-09-01T17:00:00",
+    "updated_at": "2025-09-01T18:00:00"
+  },
+  "8": {
+    "user_id": "8",
+    "email": "bdavis@example.com",
+    "full_name": "Jamie Banks",
+    "role": "finance_officer",
+    "status": "active",
+    "created_at": "2025-09-01T18:00:00",
+    "updated_at": "2025-09-01T19:00:00"
+  },
+  "9": {
+    "user_id": "9",
+    "email": "dannyneal@example.com",
+    "full_name": "Charlene Paul",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-01T19:00:00",
+    "updated_at": "2025-09-01T20:00:00"
+  },
+  "10": {
+    "user_id": "10",
+    "email": "evan72@example.org",
+    "full_name": "Caleb Flores",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-01T20:00:00",
+    "updated_at": "2025-09-01T21:00:00"
+  },
+  "11": {
+    "user_id": "11",
+    "email": "stephanie87@example.com",
+    "full_name": "Kaitlyn Baker",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-01T21:00:00",
+    "updated_at": "2025-09-01T22:00:00"
+  },
+  "12": {
+    "user_id": "12",
+    "email": "edward17@example.org",
+    "full_name": "Michael Simmons",
+    "role": "hr_director",
+    "status": "active",
+    "created_at": "2025-09-01T22:00:00",
+    "updated_at": "2025-09-01T23:00:00"
+  },
+  "13": {
+    "user_id": "13",
+    "email": "rosewilliam@example.net",
+    "full_name": "Craig Palmer",
+    "role": "finance_officer",
+    "status": "active",
+    "created_at": "2025-09-01T23:00:00",
+    "updated_at": "2025-09-02T00:00:00"
+  },
+  "14": {
+    "user_id": "14",
+    "email": "nanthony@example.com",
+    "full_name": "Cassandra Bradley",
+    "role": "payroll_administrator",
+    "status": "active",
+    "created_at": "2025-09-02T00:00:00",
+    "updated_at": "2025-09-02T01:00:00"
+  },
+  "15": {
+    "user_id": "15",
+    "email": "daisyjones@example.org",
+    "full_name": "Tyler Stewart",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T01:00:00",
+    "updated_at": "2025-09-02T02:00:00"
+  },
+  "16": {
+    "user_id": "16",
+    "email": "iholloway@example.net",
+    "full_name": "Karen Harmon",
+    "role": "manager",
+    "status": "active",
+    "created_at": "2025-09-02T02:00:00",
+    "updated_at": "2025-09-02T03:00:00"
+  },
+  "17": {
+    "user_id": "17",
+    "email": "riverahannah@example.org",
+    "full_name": "Katrina Richardson",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T03:00:00",
+    "updated_at": "2025-09-02T04:00:00"
+  },
+  "18": {
+    "user_id": "18",
+    "email": "nspencer@example.org",
+    "full_name": "Garrett Perez",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T04:00:00",
+    "updated_at": "2025-09-02T05:00:00"
+  },
+  "19": {
+    "user_id": "19",
+    "email": "ysimpson@example.com",
+    "full_name": "Richard Johnson",
+    "role": "hr_director",
+    "status": "active",
+    "created_at": "2025-09-02T05:00:00",
+    "updated_at": "2025-09-02T06:00:00"
+  },
+  "20": {
+    "user_id": "20",
+    "email": "michelle22@example.com",
+    "full_name": "Michael Guerra",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T06:00:00",
+    "updated_at": "2025-09-02T07:00:00"
+  },
+  "21": {
+    "user_id": "21",
+    "email": "ortizjamie@example.com",
+    "full_name": "Matthew Macdonald",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T07:00:00",
+    "updated_at": "2025-09-02T08:00:00"
+  },
+  "22": {
+    "user_id": "22",
+    "email": "wmckinney@example.net",
+    "full_name": "Richard Murray",
+    "role": "it_administrator",
+    "status": "active",
+    "created_at": "2025-09-02T08:00:00",
+    "updated_at": "2025-09-02T09:00:00"
+  },
+  "23": {
+    "user_id": "23",
+    "email": "skramer@example.com",
+    "full_name": "Anthony Harris",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T09:00:00",
+    "updated_at": "2025-09-02T10:00:00"
+  },
+  "24": {
+    "user_id": "24",
+    "email": "qschmidt@example.net",
+    "full_name": "Julie Allen",
+    "role": "employee",
+    "status": "active",
+    "created_at": "2025-09-02T10:00:00",
+    "updated_at": "2025-09-02T11:00:00"
+  },
+  "25": {
+    "user_id": "25",
+    "email": "william18@example.com",
+    "full_name": "Jade King",
+    "role": "payroll_administrator",
+    "status": "active",
+    "created_at": "2025-09-02T11:00:00",
+    "updated_at": "2025-09-02T12:00:00"
+  }
+}
